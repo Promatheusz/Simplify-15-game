@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Generalized 15 Puzzle Game</title>
+
+<body>
+    <header>
+        <!-- Game description -->
+        <h1>Generalized 15 Puzzle Game</h1>
+        <p>Arrange the shuffled tiles in order by moving them into the empty space. Track your moves and win the game!
+        </p>
+    </header>
+    <!-- Game Board -->
+    <section id="game">
+        <!-- Board creation -->
+        <h4>Board dimension <span id="dimension"></span></h4>
+        <table id="game-board"></table>
+    </section>
+    <section id="game-controls">
+        <!-- Game Controls -->
+        <div>
+            <button id="startGame" onclick="startGame()">Start New Game</button>
+            <button id="resetGame" onclick="resetGame()">Reset Game</button>
+        </div>
+        <!-- Game Counters -->
+        <div>
+            <div id="game-counters">
+                <p>Moves: <span id="moveCount">0</span></p><br>
+                <p>Time: <span id="timer">0</span> seconds</p>
+            </div>
+        </div>
+        <p id="status"></p>
+    </section>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
