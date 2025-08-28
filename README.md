@@ -42,6 +42,7 @@ Simplify-15-game/
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/simplify-15-game.git
+    https://github.com/Promatheusz/Simplify-15-game.git
     ```
+
 2. Open the `index.html` file in your browser to start playing.
